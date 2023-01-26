@@ -9,9 +9,18 @@
         <div class="wrapper">
             <h1>Life Counter</h1>
             <h2 id="count-el">20</h2>
-            <button id="increment-btn" onclick="increment()">+ 1</button>
-            <button id="decrement-btn" onclick="decrement()">- 1</button>
-            <button id="save-btn" onclick="save()">SAVE</button>
+            <button id="edh-btn" class="btn-hover" onclick="edh()">Commander</button>
+            <div class="btn">
+                <div class="increment">
+                    <button id="increment-btn" class="btn-hover" onclick="increment()">+ 1</button>
+                    <button id="decrement-btn" class="btn-hover" onclick="decrement()">- 1</button>
+                </div>
+                <div class="save">
+                    <button id="save-btn" class="btn-hover" onclick="save()">SAVE</button>
+                    <button id="reset-btn" class="btn-hover" onclick="reset()">RESET</button>
+                </div>
+            </div>
+
             <p id="save-el">Previous entries: </p>
         </div>
         <script src="index.js">

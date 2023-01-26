@@ -18,3 +18,15 @@ function save() {
     // countEl.textContent = 20
     // count = 20
 }
+
+function reset() {
+    countEl.textContent = 20
+    count = 20
+    saveEl.textContent = ""
+}
+
+function edh(){
+    count = 40
+    countEl.textContent = 40
+
+}
